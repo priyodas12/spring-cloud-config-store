@@ -5,9 +5,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/priyodas12/spring-cloud-config-store
-          search-paths:
-           - '*service'
-
-
+         uri: https://github.com/priyodas12/spring-cloud-config-store/
+         search-paths:
+           - mem-service
+           - rpt-service
+           - search-service
 
